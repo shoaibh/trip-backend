@@ -24,6 +24,9 @@
     "migrate:undo": "yarn run typeorm migration:revert",
     "seed": "yarn ts-node src/seed.ts"
   },
+  "engines": {
+    "node": "12.16.3"
+  },
   "dependencies": {
     "@hapi/joi-date": "^2.0.1",
     "@nestjs/common": "^7.6.13",
