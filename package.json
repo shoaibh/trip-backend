@@ -28,6 +28,7 @@
     "node": "v10.16.3"
   },
   "dependencies": {
+    "@hapi/joi": "^17.1.1",
     "@hapi/joi-date": "^2.0.1",
     "@nestjs/common": "^7.6.13",
     "@nestjs/core": "^7.6.13",
@@ -51,7 +52,6 @@
     "typeorm": "^0.2.32"
   },
   "devDependencies": {
-    "@hapi/joi": "^17.1.1",
     "@nestjs/cli": "^7.5.6",
     "@nestjs/schematics": "^7.2.7",
     "@nestjs/testing": "^7.6.13",
